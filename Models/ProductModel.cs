@@ -10,4 +10,9 @@ public class ProductModel
     public string Category { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public bool IsActive { get; set; } = true;
+
+    public int PId { get; set; }
+
+    public string? ProductName { get; set; }
+
 }
